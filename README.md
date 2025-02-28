@@ -43,7 +43,7 @@ This project has undergone several **improvements** to enhance its performance a
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/Nebula-Chatbot.git
+git clone https://github.com/its-shubham15m/Nebula-Chatbot.git
 cd Nebula-Chatbot
 streamlit run app.py
 
