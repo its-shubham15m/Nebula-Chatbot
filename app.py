@@ -2,6 +2,7 @@ import streamlit as st
 import nbformat
 import random
 import re
+import os
 import nltk
 from nltk.stem import WordNetLemmatizer
 
@@ -11,6 +12,15 @@ st.set_page_config(
     page_icon="🌌",
     layout="wide"
 )
+
+# Sidebar Navigation
+st.sidebar.header("Navigation")
+page = st.sidebar.radio("Select a Page", ["Chatbot", "PDF Chatbot"])
+
+# Redirect to `pdfchat.py` when selected
+if page == "PDF Chatbot":
+    os.system("streamlit run pdfchat.py")  # ✅ This will launch PDF chat
+    st.stop()
 
 # Download WordNet if not already available
 nltk.download('wordnet')
