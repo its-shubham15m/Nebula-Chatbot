@@ -1,49 +1,66 @@
-# Nebula-Chatbot
-🌌 Nebula-Chatbot - An AI-powered chatbot using NLP for intent recognition, entity extraction, and smart responses. Built with Python, Logistic Regression, and NLP libraries for seamless interaction. 🚀
+# Nebula - AI Chatbot
 
-![Nebula Chatbot UI](assets/nebula-screenshot.png)  
+Nebula is an AI-powered chatbot built with Streamlit, NLP techniques, and machine learning models. It provides intelligent conversations and a seamless user experience through a responsive chat interface.
 
-## 🚀 Overview  
-Nebula is an AI-driven chatbot designed for seamless and intelligent conversations. Leveraging **Natural Language Processing (NLP)**, it understands user inputs, provides meaningful responses, and adapts dynamically.  
+![alt text](assets/nebula_chatbot_chat.png)
+![alt text](assets/nebula_chatbot_pdfchat.png)
 
----
+## Features
+- **Natural Language Processing (NLP)**: Uses TF-IDF vectorization and Logistic Regression for intent recognition.
+- **WhatsApp-style Chat UI**: Clean and modern design with a toggleable dark/light theme.
+- **PDF Chatbot Integration**: Allows users to interact with uploaded PDFs using context-aware responses based on N-Grams and TF-IDF similarity.
+- **Conversation Logging**: Stores chat history in a CSV file for future analysis.
+- **User-Friendly UI**: Developed using Streamlit for a smooth and interactive experience.
 
-## 🔥 **Key Features**  
-- 💬 **Conversational AI** - Handles diverse queries with NLP-based understanding.  
-- 🎨 **Dynamic Theme Switching** - Toggle between **Light** and **Dark** mode effortlessly.  
-- 📚 **Jupyter Notebook Intent Loading** - Loads chatbot intents dynamically from `.ipynb` files.  
-- 🔄 **Persistent Chat History** - Keeps track of user interactions.  
-- 🧠 **WordNet Lemmatization** - Enhances text processing accuracy.  
-- ⚡ **Optimized UI** - Modern, WhatsApp-style chat interface for an intuitive experience.  
+## Technologies Used
+- **Python**
+- **Streamlit** (UI Framework)
+- **Scikit-learn** (Machine Learning Models)
+- **NLTK** (Natural Language Processing)
+- **TF-IDF Vectorization**
+- **PyPDF2** (PDF Processing)
 
----
+## Installation
+### Prerequisites
+Ensure you have Python 3.12+ installed.
 
-## 🛠️ **Improvements & Enhancements**  
-This project has undergone several **improvements** to enhance its performance and usability:  
+### Steps
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/Nebula-AI-Chatbot.git
+   cd Nebula-AI-Chatbot
+   ```
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the chatbot:
+   ```bash
+   streamlit run chatbot.py
+   ```
+4. Run the PDF chatbot (if needed):
+   ```bash
+   streamlit run pdfchat.py
+   ```
 
-### ✅ **1. Advanced Theme Management**  
-- Fixed **theme persistence** issue and enabled **seamless switching**.  
-- Sidebar now adapts to **dark/light mode** dynamically.  
+## Usage
+### Chatbot Interface
+- Run `chatbot.py` to launch the chatbot.
+- Type messages and receive AI-generated responses.
+- Theme toggle available for light and dark modes.
+- Chat history is stored in `chat_log.csv`.
 
-### ✅ **2. Enhanced NLP Processing**  
-- Implemented **WordNet lemmatization** to improve text matching accuracy.  
-- Optimized **intent recognition** by replacing regex with **efficient substring matching**.  
+### PDF Chatbot
+- Run `pdfchat.py` to interact with PDF files.
+- Upload a PDF and ask questions about its content.
+- Uses TF-IDF and n-gram context-aware response generation.
 
-### ✅ **3. Streamlit UI & UX Enhancements**  
-- **Revised chatbot layout** to align with a **WhatsApp-style** message format.  
-- **Sidebar information redesigned** for **modern & clean aesthetics**.  
+## Contribution
+Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
-### ✅ **4. Intelligent Intent Loading**  
-- Chatbot **dynamically loads intents** from a Jupyter Notebook (`.ipynb` file).  
-- Added **error handling** to prevent crashes if the file is missing.  
+## Author
+Developed by **Shubham Gupta**.
 
----
-
-## 🏗 **Installation & Setup**  
-
-### **1️⃣ Clone the Repository**  
-```bash
-git clone https://github.com/its-shubham15m/Nebula-Chatbot.git
-cd Nebula-Chatbot
-streamlit run app.py
+## License
+This project is licensed under the MIT License. See `LICENSE` for details.
 
