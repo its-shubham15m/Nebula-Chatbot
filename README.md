@@ -7,7 +7,7 @@ Nebula is an AI-powered chatbot built with Streamlit, NLP techniques, and machin
 
 ## Features
 - **Natural Language Processing (NLP)**: Uses TF-IDF vectorization and Logistic Regression for intent recognition.
-- **WhatsApp-style Chat UI**: Clean and modern design with a toggleable dark/light theme.
+- **Chat UI**: Clean and modern design with a toggleable dark/light theme.
 - **PDF Chatbot Integration**: Allows users to interact with uploaded PDFs using context-aware responses based on N-Grams and TF-IDF similarity.
 - **Conversation Logging**: Stores chat history in a CSV file for future analysis.
 - **User-Friendly UI**: Developed using Streamlit for a smooth and interactive experience.
