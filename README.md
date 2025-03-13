@@ -27,8 +27,8 @@ Ensure you have Python 3.12+ installed.
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/Nebula-AI-Chatbot.git
-   cd Nebula-AI-Chatbot
+   git clone https://github.com/its-shubham15m/Nebula-Chatbot.git
+   cd Nebula-Chatbot
    ```
 2. Install the required dependencies:
    ```bash
